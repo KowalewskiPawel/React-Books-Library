@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+html {
+  background-color: antiquewhite;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bookForm {
+  display: grid;
+  width: 400px;
+  border: solid black 4px;
+  border-radius: 20px;
+  margin: auto auto 40px;
+  padding: 20px;
+  background-color: rgb(121, 121, 121);
+  color: white;
+  align-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#bookName {
+  margin: 8px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#bookAuthor {
+  margin: 8px;
+}
+#read {
+  margin: 8px;
+}
+#submit {
+  margin: 8px;
+  border: solid black 2px;
+  border-radius: 8px;
+}
+table {
+  width: 800px;
+  margin: 0px auto;
+  border: solid black 2px;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: solid 2px black;
+  padding: 4px;
+  background-color: rgb(121, 121, 121);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+th {
+  text-align: left;
+  background-color: rgb(165, 162, 162);
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#settings {
+  width: 200px;
+}
+#settings > * {
+  margin: 4px;
+  border: solid black 2px;
+}
+.Header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(54, 47, 46);
+  color: white;
+}
+.Header > p {
+  margin-left: 0px;
+  margin-right: auto;
+}
+.Footer {
+  text-align: center;
+  padding: 2px 0px 2px 0px;
+  margin-top: 20px;
+  background-color: rgb(54, 47, 46);
+  color: white;
+}
+#logoHeader {
+  margin-right: 10px;
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+}
+#footerLogo {
+  width: 20px;
+  height: 20px;
 }
