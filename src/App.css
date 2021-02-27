@@ -83,3 +83,14 @@ th {
   width: 20px;
   height: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  .bookForm,
+  table {
+    width: auto;
+    table-layout: fixed;
+  }
+  td {
+    word-break: break-all;
+  }
+}
